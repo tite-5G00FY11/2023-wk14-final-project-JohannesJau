@@ -1,0 +1,183 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #eee;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+nav a.active {
+  background-color: #ccc;
+}
+
+/* Main table styles */
+.main-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-table th, .main-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.main-table th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+.main-table .bold {
+  font-weight: bold;
+}
+
+.main-table .capitalize {
+  text-transform: capitalize;
+}
+
+/* Chart styles */
+canvas {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#temparature-readings {
+  margin-bottom: 20px;
+}
+
+#temparature-readings li {
+  margin-bottom: 5px;
+}
+
+/* Style for wind speed chart section */
+#view-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+#wind-speed-table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#wind-speed-table th,
+#wind-speed-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+#wind-speed-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+#wind-speed-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#wind-speed-chart {
+  margin-top: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+
+
+#view-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+#humidity-out-table {
+  margin-top: 50px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#humidity-out-table th,
+#humidity-out-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+#humidity-out-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+#humidity-out-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#humidity-out-chart {
+  margin-top: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+
+
+
+
+

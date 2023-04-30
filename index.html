@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather Data</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body class="container">
+        <nav>
+            <ul>
+                <li><a href="#view-1">Last 50 Readings</a></li>
+                <li><a href="#view-2">Temperature Chart</a></li>
+                <li><a href="#view-3">Wind Speed</a></li>
+                <li><a href="#view-4">Humidity Out</a></li>
+            </ul>
+        </nav>
+
+        <section id="view-1">
+            <h1>Last 50 Readings</h1>
+            <table class ="main-table">
+            <thead>
+                <tr>
+                    <th>Number </th>
+                    <th>Data Type </th>
+                    <th>Date </th>
+                    <th>Time </th>
+                    <th>Value </th>  
+                </tr>
+            </thead>
+            <tbody class="main-table-body"></tbody>
+            </table>
+        </section>
+
+        <section id="view-2">
+        <h1>Temperature data</h1>
+        <canvas id="temperature-chart" width="11"></canvas>
+        </section>
+
+        <section id="view-3">
+            <h1>Wind Speed</h1>
+            <table id="wind-speed-table">
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Value (m/s)</th>
+                    </tr>
+                </thead>
+                <tbody id="wind-speed-table-body">
+                </tbody>
+            </table>
+        </section>
+
+        <section id="view-4">
+            <h1>Humidity Out</h1>
+            <table id="humidity-out-table">
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody id="humidity-out-table-body">
+                </tbody>
+            </table>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
