@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   // Select the wind speed table body element again (in case it wasn't loaded before)
   const windSpeedTableBody = document.getElementById("wind-speed-table-body");
 
-  // Call the functions to load weather data into the main table and charts
+  // Call the functions to load weather data into the main table and  charts
   loadMainWeather();
   myGraph();
   loadWindSpeed();
