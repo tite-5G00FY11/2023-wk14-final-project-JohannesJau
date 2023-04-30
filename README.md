@@ -8,3 +8,5 @@ l" Did not have time to fix that. Locally the site works fine.
 
 
 A presentation that summarises the key features and functionalities of the website: https://youtu.be/dbblyb7VVOs
+
+I think the project deserves a 50% -> 1p
